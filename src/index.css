@@ -36,6 +36,15 @@ nav ul {
   padding-left: 0;
 }
 
+.lazy-layout li {
+  list-style: none;
+}
+
+.lazy-layout li a {
+  color: white;
+  text-decoration: none;
+}
+
 nav li {
   list-style: none;
   margin-bottom: 10px;
@@ -48,7 +57,7 @@ nav li a {
 }
 
 .nav-active {
-  color: grey;
+  color: grey !important;
   transition: all .3s ease-out;
   cursor: default;
 }
